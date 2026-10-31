@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Render health endpoint
-        run: curl -fsS --retry 2 --max-time 30 https://osama-u17w.onrender.com/api/health
+        run: curl -fsS --retry 2 --max-time 30 https://osama.qd.je/api/health
